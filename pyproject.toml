@@ -1,0 +1,22 @@
+[project]
+name = "pystebin"
+version = "1.0.0"
+description = "CLI uploader for Pastebin"
+authors = [
+    { name="tosterlolz" }
+]
+dependencies = [
+    "typer[all]",
+    "requests",
+]
+requires-python = ">=3.7"
+
+[project.scripts]
+pystebin = "pystebin:app"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
