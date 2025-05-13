@@ -1,6 +1,6 @@
 # 🚀 PyStebin
 
-**PyStebin** is a simple and modern Pastebin uploader for the terminal. It features a friendly CLI, TUI, configuration saving, and auto-updating from GitHub.
+**PyStebin** is a simple and modern Pastebin uploader for the terminal. It features a friendly CLI, configuration saving, and auto-updating from GitHub.
 
 ---
 
